@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV - Manuel Castro Olivo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="foto_perfil.png" alt="Foto de Manuel Castro Olivo" class="foto-perfil" />
+    <h1>Manuel Castro Olivo</h1>
+    <p>26 años • Monterrey, NL, México</p>
+    <p>📞 (81)3074-9284 / 8183889209 • 📧 manuel.99castro@gmail.com</p>
+  </header>
+
+  <nav>
+    <button onclick="mostrarSeccion('habilidades')">Habilidades</button>
+    <button onclick="mostrarSeccion('experiencia')">Experiencia</button>
+    <button onclick="mostrarSeccion('educacion')">Educación</button>
+    <button onclick="mostrarSeccion('proyectos')">Proyectos</button>
+  </nav>
+
+  <main>
+    <section id="habilidades" class="seccion">
+      <h2>Habilidades</h2>
+      <div class="habilidades-grid">
+        <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><span>HTML</span></div>
+        <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><span>CSS</span></div>
+        <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><span>JavaScript</span></div>
+        <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><span>Git</span></div>
+        <div class="habilidad"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Mawi_logo.png" onerror="this.style.display='none'"><span>Mawi</span></div>
+        <div class="habilidad"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"><span>Office</span></div>
+        <div class="habilidad"><span>Idiomas: Inglés intermedio, español</span></div>
+        <div class="habilidad"><span>Pasatiempos: Deportes y lectura</span></div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="seccion">
+      <h2>Experiencia</h2>
+      <div class="experiencia-item">
+        <h3>Wendy's, Galerías Monterrey — Empleado General</h3>
+        <p><em>Ene 2015 – Mar 2015</em></p>
+        <p>Atención al cliente, mesero, asistente de cocina y cajero.</p>
+      </div>
+      <div class="experiencia-item">
+        <h3>Campaña política, Santa Catarina NL — Asistente de Computación</h3>
+        <p><em>Sep 2021 – Jun 2021</em></p>
+        <p>Apoyo logístico, organización de listas de pago y trabajo de oficina.</p>
+      </div>
+      <div class="experiencia-item">
+        <h3>Verta América, Holiments — Producción</h3>
+        <p><em>Sep 2023 – Mar 2024</em></p>
+        <p>Manipulación de maquinaria para la producción de chocolate.</p>
+      </div>
+    </section>
+
+    <section id="educacion" class="seccion">
+      <h2>Educación</h2>
+      <ul>
+        <li>2013 - 2015 • Preparatoria N°2</li>
+        <li>2021 - 2023 • Técnica en Tecnologías de la Información (Multiplataforma)</li>
+        <li>2023 - Actual • Ingeniería en Desarrollo y Gestión de Software</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="seccion">
+      <h2>Proyectos</h2>
+      <div class="proyecto">
+        <h3>Consulta el Clima</h3>
+        <p>App que permite consultar el clima actual en cualquier ciudad usando una API del clima.</p>
+        <img src="proyecto_clima.png" alt="App del clima">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Manuel Castro Olivo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
