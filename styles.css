@@ -110,3 +110,33 @@ footer {
   color: #aaa;
   padding: 1rem;
 }
+/* Responsive para pantallas pequeñas */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav button {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .foto-perfil {
+    width: 100px;
+  }
+
+  .habilidades-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .proyecto img {
+    width: 100%;
+    height: auto;
+  }
+}
